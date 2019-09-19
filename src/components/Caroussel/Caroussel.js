@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import Img1 from '../assets/images/dance.jpg';
-import Img2 from '../assets/images/dancer2.jpg';
-import Img3 from '../assets/images/singer.jpg';
+import Img1 from '../../assets/images/dance.jpg';
+import Img2 from '../../assets/images/dancer2.jpg';
+import Img3 from '../../assets/images/singer.jpg';
 
 import {
     Carousel,
     CarouselItem,
     CarouselControl,
-    CarouselIndicators,
-    CarouselCaption
+    CarouselIndicators
   } from 'reactstrap';
 
 const items = [
