@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
 import './Navbar.css';
 
 import {
@@ -35,7 +34,7 @@ render() {
   return (
 
     <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Sharesensation</NavbarBrand>
+          <NavbarBrand href="/">Jobs</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
