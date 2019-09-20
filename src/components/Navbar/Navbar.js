@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Navbar.css';
+import styles from  './Navbar.module.css';
 
 import {
     Collapse,
@@ -33,7 +33,7 @@ constructor(props) {
 render() {
   return (
 
-    <Navbar color="light" light expand="md">
+    <Navbar className={styles.Navbar} color="light" light expand="md">
           <NavbarBrand href="/">Jobs</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
