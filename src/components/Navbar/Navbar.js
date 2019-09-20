@@ -1,33 +1,88 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import './Navbar.css';
 
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem } from 'reactstrap';
 
-function Navbar() {
-  return (
-    <div className="Navbar">
-        <h1>Navigation</h1>
-        <Link to="/">
-            <button>Home</button>
-        </Link>
+class NavSharesensation extends Component {
 
-        <Link to="/About">
-            <button>About</button>
-        </Link>
+constructor(props) {
+    super(props);
 
-        <Link to="/Careers">
-            <button>Careers</button>
-        </Link>
-
-        <Link to="/Contact">
-            <button>Contact</button>
-        </Link>
-
-        <Link to="/Donations">
-            <button>Donations</button>
-        </Link>
-    </div>
-    );
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+        isOpen: false
+    };
+    }
+    toggle() {
+    this.setState({
+        isOpen: !this.state.isOpen
+    });
     }
 
-export default Navbar;
+render() {
+  return (
+
+    <Navbar color="light" light expand="md">
+          <NavbarBrand href="/">Sharesensation</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+
+              <NavItem>
+                <NavLink href="/">Home</NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="/About">About</NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="/Careers">Careers</NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="/Contact">Contact</NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="/Donations">Donations</NavLink>
+              </NavItem>
+
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  Options
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    Option 1
+                  </DropdownItem>
+                  <DropdownItem>
+                    Option 2
+                  </DropdownItem>
+                  <DropdownItem divider />
+                  <DropdownItem>
+                    Reset
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+            </Nav>
+          </Collapse>
+        </Navbar>
+
+        );
+    }
+}
+
+export default NavSharesensation;

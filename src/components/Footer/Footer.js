@@ -1,27 +1,37 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './Footer.css';
+import styles from './Footer.module.css';
 
 
-function Nav() {
+const Nav = () => {
   return (
-    <div className="Footer">
-        <h1>Footer</h1>
-        <Link to="/About">
-            <button>About</button>
-        </Link>
+    <div className={styles.Footer}>
+        <div className="container">
+            <div className="row">
+                <div className="col">
+                    <li>
+                        <Link to="/About">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/About">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/About">About</Link>
+                    </li>
+                    
+                </div>
+                <div className="col">
+                    <Link to="/Careers">Careers</Link>
+                </div>
+                <div className="col">
+                    <Link to="/Contact">Contact</Link>
+                </div>
+                <div className="col">
+                    <Link to="/Donations">Donations</Link>
+                </div>
+            </div>
+        </div>
 
-        <Link to="/Careers">
-            <button>Careers</button>
-        </Link>
-
-        <Link to="/Contact">
-            <button>Contact</button>
-        </Link>
-
-        <Link to="/Donations">
-            <button>Donations</button>
-        </Link>
     </div>
   );
 }
