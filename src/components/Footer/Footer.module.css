@@ -1,21 +1,6 @@
-.Footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 10vh;
-    background-color: #404040;
-    color: #404040;
-}
-
-.Footer a {
-    color: white;
-    text-decoration: none;
-}
-
-.Footer a:hover {
-    color: limegreen;
-    text-decoration: none;
-}
-.Footer li {
-    list-style-type: none;
+.IconFooter {
+        width: 50px;
+        height: 50px;
+        border: 1px solid grey;
+        border-radius: 5px;
 }
