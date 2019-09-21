@@ -10,6 +10,7 @@ import About from './pages/About/About';
 import Careers from './pages/Careers/Careers';
 import Contact from './pages/Contact/Contact';
 import Donations from './pages/Donations/Donations';
+import Howitwork from './pages/Howitwork/Howitwork';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
                 <Route path="/Careers" component={Careers}/>
                 <Route path="/Contact" component={Contact} />
                 <Route path="/Donations" component={Donations} />
+                <Route path="/Howitwork" component={Howitwork} />
                 <Route path="/" exact component={Home} />
             </Switch>
             <Footer/>

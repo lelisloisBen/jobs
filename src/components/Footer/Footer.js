@@ -30,7 +30,7 @@ const Nav = () => {
                 <h5>Resources</h5>
                 <ul className="list-unstyled text-small">
                     <li><Link className="text-muted" to="/Careers">Careers</Link> </li>
-                    <li><Link className="text-muted" to="#">Resource name</Link> </li>
+                    <li><Link className="text-muted" to="/Howitwork">How It Works</Link> </li>
                     <li><Link className="text-muted" to="#">Another resource</Link> </li>
                     <li><Link className="text-muted" to="#">Final resource</Link> </li>
                 </ul>
