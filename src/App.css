@@ -1,3 +1,68 @@
 .App {
     margin-top: 100px;
 }
+/* Button Custom */
+.button {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+/* ############ All the colors ########## */
+.purple {
+    background-color: purple!important;
+    color: white!important;
+}
+.purple:focus{
+    outline-color: purple!important;
+}
+.orange {
+    background-color: orange!important;
+    color: white!important;
+}
+.orange:focus{
+    outline-color: orange!important;
+}
+.red {
+    background-color: red;
+    color: white!important;
+}
+.red:focus{
+    outline-color: red!important;
+}
+.blue {
+    background: dodgerblue!important;
+    color: white!important;
+}
+.blue:focus{
+    outline-color: dodgerblue!important;
+}
+.aubergine {
+    background-color: #231E1F!important;
+    color: white!important; /* Or sunglow : #FFCC33 */
+}
+.aubergine:focus{
+    outline-color: #231E1F!important;
+}
+.aubergine_amber {
+    background-color: #231E1F!important;
+    color: #FFCC33!important;
+}
+.aubergine_amber:focus{
+    outline-color: #231E1F!important;
+}
+.amber {
+    background-color: #FFC10D!important;
+    color: black!important;
+}
+.amber:focus{
+    outline-color: #FFC10D!important;
+}

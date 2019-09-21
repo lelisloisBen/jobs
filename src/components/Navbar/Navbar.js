@@ -35,7 +35,7 @@ constructor(props) {
 render() {
   return (
 
-    <Navbar className={styles.Navbar} color="light" light expand="md">
+    <Navbar className={styles.Navbar} expand="md">
           <NavbarBrand href="/">
             <img src={jobIcon} className={styles.jobIcon} alt="icon for jobs" />
             &nbsp;
