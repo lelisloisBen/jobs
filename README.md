@@ -1,13 +1,9 @@
-# SHARESENSATION
+# Jobs
 
-### Add today 
-I add the caroussel, see here for bootstrap4 (https://reactstrap.github.io/)
+### reactstrap
+see here for bootstrap4 (https://reactstrap.github.io/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
