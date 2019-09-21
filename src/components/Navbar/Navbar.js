@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import styles from  './Navbar.module.css';
+import avatar_img from '../../assets/avatar/avatar.png';
+import jobIcon from '../../assets/icons/icon.jpg';
 
 import {
     Collapse,
@@ -34,7 +36,11 @@ render() {
   return (
 
     <Navbar className={styles.Navbar} color="light" light expand="md">
-          <NavbarBrand href="/">Jobs</NavbarBrand>
+          <NavbarBrand href="/">
+            <img src={jobIcon} className={styles.jobIcon} alt="icon for jobs" />
+            &nbsp;
+            Jobs
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -58,10 +64,12 @@ render() {
               <NavItem>
                 <NavLink href="/Donations">Donations</NavLink>
               </NavItem>
-
+            </Nav>
+            <Nav className="ml-auto" navbar>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Options
+                  <img className={styles.avatar} src={avatar_img} alt="Avatar" />
+                  &nbsp; Samir Benzada
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>

@@ -4,3 +4,11 @@
 .Navbar a:hover {
     color: #FFCC33!important;
 }
+.avatar {
+    width: 30px;
+    height: 30px;
+}
+.jobIcon {
+    width: 30px;
+    height: 30px;
+}
