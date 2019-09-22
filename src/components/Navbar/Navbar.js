@@ -73,14 +73,20 @@ render() {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Option 1
+                    Profile
                   </DropdownItem>
-                  <DropdownItem>
-                    Option 2
+                  <DropdownItem href="/About"> 
+                    Jobs tryed
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
-                    Reset
+                    Help
+                  </DropdownItem>
+                  <DropdownItem>
+                    Setting
+                  </DropdownItem>
+                  <DropdownItem>
+                    Log Out
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
