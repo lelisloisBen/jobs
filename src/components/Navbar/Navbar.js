@@ -78,6 +78,9 @@ render() {
                   <DropdownItem href="/About"> 
                     Jobs tryed
                   </DropdownItem>
+                  <DropdownItem href="/Newjob"> 
+                    New Job
+                  </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
                     Help
