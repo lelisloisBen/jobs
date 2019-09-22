@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import styles from './Newjob.module.css';
 
 class Newjob extends Component {
     constructor(props) {
@@ -53,7 +54,7 @@ class Newjob extends Component {
         <button 
           className="btn btn-secondary" 
           type="button" onClick={this._prev}>
-        Previous
+            <i class="fas fa-step-backward"></i> Previous
         </button>
       )
     }
@@ -67,7 +68,7 @@ class Newjob extends Component {
         <button 
           className="btn btn-primary" 
           type="button" onClick={this._next}>
-        Next
+            Next <i class="fas fa-step-forward"></i>
         </button>        
       )
     }
@@ -78,9 +79,9 @@ class Newjob extends Component {
       return (
         <Fragment>
             <div className="container">
-                <h1>React Wizard Form</h1>
-                <p>Step {this.state.currentStep} </p> 
-        
+                <h1>Post a New Job Test</h1>
+                <button className={styles.step}><i class="fas fa-hourglass-start"></i> Step {this.state.currentStep} </button> 
+                <hr/>
                 <form onSubmit={this.handleSubmit}>
                 {/* 
                 render the form steps and pass required props in
