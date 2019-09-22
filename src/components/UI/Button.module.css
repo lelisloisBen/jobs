@@ -1,14 +1,12 @@
-.Button {
-    background-color: grey;
+.Button {    
+    width: 100%;
     border: none;
-    border-radius: 5px;
-    color: white;
-    outline: none;
     cursor: pointer;
-    font: inherit;
-    padding: 10px;
-    margin: 10px;
-    font-weight: bold;
+    box-sizing: border-box;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
 }
 
 .Button:first-of-type {
@@ -22,9 +20,11 @@
 }
 
 .Success {
-    color: #5C9210;
+    background-color: green;
+    color: #ffffff;
 }
 
 .Danger {
-    color: #944317;
+    background-color: red;
+    color: #ffffff;
 }
