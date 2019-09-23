@@ -16,25 +16,39 @@ import {
     DropdownMenu,
     DropdownItem } from 'reactstrap';
 
+const Child = () => (
+  <div className={styles.module}>
+      Hello, World!
+  </div>
+)
+
 class NavSharesensation extends Component {
 
 constructor(props) {
-    super(props);
+  super(props);
 
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-        isOpen: false
-    };
-    }
-    toggle() {
-    this.setState({
-        isOpen: !this.state.isOpen
-    });
-    }
+  this.toggle = this.toggle.bind(this);
+  this.state = {
+      isOpen: false,
+      isHidden: true
+  };
+}
+
+toggle() {
+  this.setState({
+      isOpen: !this.state.isOpen
+  });
+}
+
+toggleHidden () {
+  this.setState({
+    isHidden: !this.state.isHidden
+  })
+}
 
 render() {
   return (
-
+  <div className={styles.fixed}>
     <Navbar className={styles.Navbar} expand="md">
           <NavbarBrand href="/">
             <img src={jobIcon} className={styles.jobIcon} alt="icon for jobs" />
@@ -66,6 +80,9 @@ render() {
               </NavItem>
             </Nav>
             <Nav className="ml-auto" navbar>
+              <button onClick={this.toggleHidden.bind(this)}>
+                <i class="fas fa-search"></i>
+              </button>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   <img className={styles.avatar} src={avatar_img} alt="Avatar" />
@@ -96,7 +113,10 @@ render() {
             </Nav>
           </Collapse>
         </Navbar>
-
+        <div className={styles.searchbar}>
+          {!this.state.isHidden && <Child />}
+        </div>
+      </div>
         );
     }
 }

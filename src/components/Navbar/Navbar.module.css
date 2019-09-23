@@ -1,9 +1,11 @@
-.Navbar {
+.fixed {
     position: fixed!important;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1030;
+}
+.Navbar {
     background-color: #fff;
 }
 .Navbar a {
@@ -12,6 +14,9 @@
 .Navbar a:hover {
     color: #FFCC33!important;
 }
+.searchbar {
+    background-color: #FFCC33;
+}
 .avatar {
     width: 30px;
     height: 30px;
@@ -19,4 +24,7 @@
 .jobIcon {
     width: 30px;
     height: 30px;
+}
+.test {
+    background-color: #231E1F;
 }
