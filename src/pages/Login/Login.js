@@ -1,15 +1,15 @@
 import React from 'react';
 import styles from './Login.module.css';
+import Logo from "../../assets/icons/icon.jpg";
 
 function Login() {
   return (
     <div>
-        <h1>Login page</h1>
         <form className={styles.formSignin}>
             <div className="text-center mb-4">
-                <img className={styles.mb-4} src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72" />
-                <h1 className="h3 mb-3 font-weight-normal">Floating labels</h1>
-                <p>Build form controls with floating labels via the <code>:placeholder-shown</code> pseudo-element. <a href="https://caniuse.com/#feat=css-placeholder-shown">Works in latest Chrome, Safari, and Firefox.</a></p>
+                <img className="mb-4" src={Logo} alt="" width="72" height="72" />
+                <h1 className="h3 mb-3 font-weight-normal">Job.com</h1>
+                <p>Only way to know if I know, Try me.</p>
             </div>
 
             <div className={styles.formLabelGroup}>
@@ -28,7 +28,7 @@ function Login() {
                 </label>
             </div>
             <button className="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-            <p className="mt-5 mb-3 text-muted text-center">&copy; 2017-2019</p>
+            <p className="mt-5 mb-3 text-muted text-center">&copy; 2019</p>
         </form>
     </div>
   );
