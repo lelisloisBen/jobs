@@ -12,6 +12,7 @@ import Contact from './pages/Contact/Contact';
 import Donations from './pages/Donations/Donations';
 import Howitwork from './pages/Howitwork/Howitwork';
 import Newjob from './pages/Newjob/Newjob';
+import Messages from './pages/Messages/Messages';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/Donations" component={Donations} />
                 <Route path="/Howitwork" component={Howitwork} />
                 <Route path="/Newjob" component={Newjob} />
+                <Route path="/Messages" component={Messages} />
                 <Route path="/" exact component={Home} />
             </Switch>
             <Footer/>

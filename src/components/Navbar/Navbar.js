@@ -104,6 +104,9 @@ render() {
                   <DropdownItem href="/Newjob"> 
                     New Job
                   </DropdownItem>
+                  <DropdownItem href="/Messages"> 
+                    Messages
+                  </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
                     Help
