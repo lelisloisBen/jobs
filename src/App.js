@@ -13,6 +13,7 @@ import Donations from './pages/Donations/Donations';
 import Howitwork from './pages/Howitwork/Howitwork';
 import Newjob from './pages/Newjob/Newjob';
 import Messages from './pages/Messages/Messages';
+import Login from './pages/Login/Login';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Router> 
             <NavSharesensation />
             <Switch>
+                <Route path="/Login" component={Login}/>
                 <Route path="/About" component={About}/>
                 <Route path="/Careers" component={Careers}/>
                 <Route path="/Contact" component={Contact} />
