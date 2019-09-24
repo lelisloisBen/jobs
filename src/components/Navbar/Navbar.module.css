@@ -14,9 +14,43 @@
 .Navbar a:hover {
     color: #FFCC33!important;
 }
+.buttonSearch {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.buttonSearch:hover {
+    color: #FFCC33;
+}
+.buttonSearch:focus {
+    border: none;
+    outline: none;
+}
 .searchbar {
     background-color: #FFCC33;
+    padding: 10px;
+    text-align: center;
 }
+input.searchInput {
+    border: 1px solid #231E1F;
+}
+input.searchInput:focus {
+    outline: none;
+}
+.searchSubmit {
+    background-color: #231E1F;
+    border: none;
+    border-top: 1px solid #231E1F;
+    /* border: 1px solid #231E1F; */
+    color: white;
+}
+input.searchSubmit:focus {
+    outline: none;
+}
+input.searchSubmit:hover {
+    opacity: 0.8;
+}
+
 .avatar {
     width: 30px;
     height: 30px;

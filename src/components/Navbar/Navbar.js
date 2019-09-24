@@ -16,9 +16,12 @@ import {
     DropdownMenu,
     DropdownItem } from 'reactstrap';
 
-const Child = () => (
-  <div className={styles.module}>
-      Hello, World!
+const Search = () => (
+  <div className={styles.searchbar}>
+    <form>
+      <input type="text" placeholder="Search here..." className={styles.searchInput} />
+      <input type="submit" value="Search" className={styles.searchSubmit} />
+    </form>
   </div>
 )
 
@@ -80,7 +83,7 @@ render() {
               </NavItem>
             </Nav>
             <Nav className="ml-auto" navbar>
-              <button onClick={this.toggleHidden.bind(this)}>
+              <button className={styles.buttonSearch} onClick={this.toggleHidden.bind(this)}>
                 <i class="fas fa-search"></i>
               </button>
               <UncontrolledDropdown nav inNavbar>
@@ -113,9 +116,9 @@ render() {
             </Nav>
           </Collapse>
         </Navbar>
-        <div className={styles.searchbar}>
-          {!this.state.isHidden && <Child />}
-        </div>
+        
+          {!this.state.isHidden && <Search />}
+        
       </div>
         );
     }
