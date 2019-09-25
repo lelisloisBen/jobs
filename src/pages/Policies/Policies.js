@@ -67,7 +67,62 @@ class Policies extends Component {
     <li>Night Auditor</li>
     <li>WFF USC Credit Manager</li>
 
+    <h4>### Category: Administrative Jobs</h4>
 
+    <li>Accounts Payable Clerk</li>
+    <li>Executive Assistant</li>
+    <li>Program Coordinator</li>
+    <li>Accounts Receivable Clerk</li>
+    <li>Executive Director</li>
+    <li>Program Manager</li>
+    <li>Administrative Assistant</li>
+    <li>File Clerk</li>
+    <li>Project Coordinator</li>
+    <li>Assistant Manager</li>
+    <li>Medical Records Clerk</li>
+    <li>Project Manager</li>
+    <li>Branch Manager</li>
+    <li>Office Assistant</li>
+    <li>Purchasing Agent</li>
+    <li>Clerk</li>
+    <li>Office Clerk</li>
+    <li>Purchasing Manager</li>
+    <li>Data Entry Operator</li>
+    <li>Office Manager</li>
+    <li>Receptionist</li>
+    <li>Director of Operations</li>
+    <li>Operations Manager</li>
+    <li>Receptionist Administrative Assistant</li>
+    <li>District Manager</li>
+    <li>Personal Assistant</li>
+    <li>Secretary</li>
+    <li>Executive Administrative Assistant</li>
+    <li>Product Manager</li>
+    <li>Territory Manager</li>
+
+    <h4>### Category: Arts/Entertainment/Publishing Jobs</h4>
+
+        <li>Art Director</li>
+        <li>Graphics Designer</li>
+        <li>Unigraphics Designer</li>
+        <li>Assistant Editor</li>
+        <li>Graphics Designer Production Artist</li>
+        <li>User Interface Designer</li>
+        <li>Designer</li>
+        <li>Illustrator</li>
+        <li>Video Editor</li>
+        <li>Editor</li>
+        <li>Journalist</li>
+        <li>Writer</li>
+        <li>Editorial Assistant</li>
+        <li>News Producer</li>
+        <li>Writer Editor</li>
+        <li>Graphic Artist</li>
+        <li>News Reporter</li>
+        <li>Zoo Keeper</li>
+        <li>Graphic Web Designer</li>
+        <li>Photographer</li>
+ 
 
 
 
