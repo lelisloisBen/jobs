@@ -123,8 +123,88 @@ class Policies extends Component {
         <li>Graphic Web Designer</li>
         <li>Photographer</li>
  
+        <h4>### Category: Banking/Loans Jobs</h4>
 
+        <li>Analyst</li>
+        <li>Investment Analyst</li>
+        <li>Underwriter</li>
+        <li>Bank Teller</li>
+        <li>Loan Consultant</li>
+        <li>Underwriter Trainee</li>
+        <li>Banker</li>
+        <li>Loan Officer</li>
+        <li>Underwriting Assistant</li>
+        <li>Credit Analyst</li>
+        <li>Loan Processor</li>
+        <li>Universal Banker</li>
+        <li>Escrow Assistant</li>
+        <li>Mortgage Loan Officer</li>
+        <li>In Store Banker</li>
+        <li>Teller</li>
 
+        <h4>### Category: Construction/Facilities Jobs</h4>
+
+        <li>Carpenter</li>
+        <li>Groundskeeper</li>
+        <li>Laborer</li>
+        <li>Construction Manager</li>
+        <li>HVAC Technician</li>
+        <li>Maintenance Manager</li>
+        <li>Construction Superintendent</li>
+        <li>Heavy Equipment Operator</li>
+        <li>Maintenance Mechanic</li>
+        <li>Construction Worker</li>
+        <li>Industrial Designer</li>
+        <li>Maintenance Supervisor</li>
+        <li>Custodian</li>
+        <li>Industrial Electrician</li>
+        <li>Maintenance Technician</li>
+        <li>Electrician</li>
+        <li>Installer</li>
+        <li>Maintenance Worker</li>
+        <li>Equipment Operator</li>
+        <li>Interior Designer</li>
+        <li>Painter</li>
+        <li>Estimator</li>
+        <li>Janitor</li>
+        <li>Plant Manager</li>
+        <li>Facilities Manager</li>
+        <li>Journeyman Electrician</li>
+        <li>Welder</li>
+        <li>General Maintenance Technician</li>
+        <li>Journeyman Lineman</li>
+        <li>Welder Fabricator</li>
+
+        <h4>### Category: Customer Service Jobs</h4>
+
+        <li>Branch Customer Service Representative</li>
+        <li>Field Service Representative</li>
+        <li>Lot Attendent</li>
+        <li>Customer Service Advisor</li>
+        <li>Field Service Technician</li>
+        <li>Relationship Manager</li>
+        <li>Customer Service Associate</li>
+        <li>Field Technician</li>
+        <li>Retail Customer Support Representative</li>
+        <li>Customer Service Manager</li>
+        <li>Flight Attendant</li>
+        <li>Sales Engineer</li>
+        <li>Customer Service Representative</li>
+        <li>Game Manager</li>
+        <li>Service Manager</li>
+        <li>Desktop Support</li>
+        <li>General Service Technician</li>
+        <li>Service Technician</li>
+        <li>Desktop Support Technician</li>
+        <li>Help Desk Analyst</li>
+        <li>Universal Service Representative</li>
+        <li>Emergency Road Service Counselor</li>
+        <li>Help Desk Specialist</li>
+        <li>Valet Attendant</li>
+        <li>Field Engineer</li>
+        <li>Help Desk Technical Support</li>
+        <li>Field Service Engineer</li>
+        <li>Help Desk Technician</li>
 
                 <h3>A List </h3>
                 <ul>
