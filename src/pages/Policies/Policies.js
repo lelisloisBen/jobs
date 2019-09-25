@@ -381,6 +381,84 @@ class Policies extends Component {
         <li>HR Generalist</li>
         <li>Recruiter</li>
 
+        <h4>### Category: Insurance Jobs</h4>
+
+        <li>Benefits Administrator</li>
+        <li>Fraud Investigator</li>
+        <li>Investigator</li>
+        <li>Benefits Manager</li>
+        <li>Inspector</li>
+        <li>Lead Asset Protection Associate</li>
+        <li>Benefits Specialist</li>
+        <li>Insurance Agent</li>
+        <li>Field Investigator</li>
+        <li>Insurance Sales Representative</li>
+
+        <h4>### Category: Law Enforcement/Security Jobs</h4>
+
+        <li>Criminal Investigator</li>
+        <li>Loss Prevention Investigator</li>
+        <li>Security Officer</li>
+        <li>International Police Officer</li>
+        <li>Loss Prevention Manager</li>
+        <li>Transportation Security Officer</li>
+        <li>Juvenile Detention Officer</li>
+        <li>Police Officer</li>
+        <li>Unarmed Security Guard</li>
+        <li>Juvenile Probation Officer</li>
+        <li>Security Guard</li>
+
+        <h4>### Category: Legal Jobs</h4>
+
+
+        <li>Attorney</li>
+        <li>Legal Administrative Assistant</li>
+        <li>Litigation Attorney</li>
+        <li>General Counsel</li>
+        <li>Legal Assistant</li>
+        <li>Litigation Paralegal</li>
+        <li>Judge Advocate</li>
+        <li>Legal Secretary</li>
+        <li>Paralegal</li>
+
+        <h4>### Category: Manufacturing/Mechanical Jobs</h4>
+
+        <li>Assembler</li>
+        <li>Manufacturing Engineer</li>
+        <li>QA Tester</li>
+        <li>Autocad Drafter</li>
+        <li>Material Handler</li>
+        <li>Quality Control Inspector</li>
+        <li>Automotive Technician</li>
+        <li>Operator</li>
+        <li>Quality Engineer</li>
+        <li>CNC Machinist</li>
+        <li>Production Assistant</li>
+        <li>Research Analyst</li>
+        <li>Chemist</li>
+        <li>Production Manager</li>
+        <li>Research Assistant</li>
+        <li>Drafter</li>
+        <li>Production Supervisor</li>
+        <li>Research Associate</li>
+        <li>Electronic Assembler</li>
+        <li>Production Worker</li>
+        <li>Research Scientist</li>
+        <li>Electronics Technician</li>
+        <li>QA Analyst</li>
+        <li>Safety Manager</li>
+        <li>Machine Operator</li>
+        <li>QA Engineer</li>
+        <li>Technician</li>
+        <li>Machinist</li>
+        <li>QA Specialist</li>
+        <li>Test Technician</li>
+
+
+
+
+        
+
 
 
 
