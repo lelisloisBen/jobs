@@ -118,7 +118,7 @@ render() {
                     Log Out
                   </DropdownItem>
                   <DropdownItem href="/Login">
-                    // // LogIN // //
+                    LogIN Page in Progress
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>

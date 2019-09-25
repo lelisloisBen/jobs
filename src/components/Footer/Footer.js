@@ -21,7 +21,7 @@ const Nav = () => {
                     <li><Link className="text-muted" to="/">Home</Link> </li>
                     <li><Link className="text-muted" to="/About">About</Link> </li>
                     <li><Link className="text-muted" to="#">Team feature</Link> </li>
-                    <li><Link className="text-muted" to="#">Stuff for developers</Link> </li>
+                    <li><Link className="text-muted" to="/Policies">Policies</Link> </li>
                     <li><Link className="text-muted" to="#">Another one</Link> </li>
                     <li><Link className="text-muted" to="#">Last time</Link> </li>
                 </ul>
