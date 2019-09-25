@@ -454,6 +454,49 @@ class Policies extends Component {
         <li>QA Specialist</li>
         <li>Test Technician</li>
 
+        <h4>### Category: Marketing/Advertising/PR Jobs</h4>
+
+        <li>Brand Manager</li>
+        <li>Marketing Assistant</li>
+        <li>Online Marketing Manager</li>
+        <li>Copywriter</li>
+        <li>Marketing Associate</li>
+        <li>Product Marketing Manager</li>
+        <li>Director Of Communication</li>
+        <li>Marketing Coordinator</li>
+        <li>Public Relations Manager</li>
+        <li>Director Of Marketing</li>
+        <li>Marketing Manager</li>
+        <li>VP of Marketing</li>
+        <li>Market Research Analyst</li>
+        <li>Marketing Specialist</li>
+
+        <h4>### Category: Non-Profit/Volunteering Jobs</h4>
+
+
+        <li>Community Volunteer</li>
+        <li>Youth Care Specialist</li>
+        <li>Youth Leader</li>
+        <li>Red Cross</li>
+        <li>Youth Care Worker</li>
+        <li>Youth Program Coordinator</li>
+        <li>Special Events Coordinator</li>
+        <li>Youth Coordinator</li>
+        <li>Youth Program Director</li>
+        <li>Volunteer Coordinator</li>
+        <li>Youth Counselor</li>
+        <li>Youth Specialist</li>
+        <li>Volunteer Recruiter</li>
+        <li>Youth Development Manager</li>
+        <li>Youth Worker</li>
+        <li>Youth Advocate</li>
+        <li>Youth Development Specialist</li>
+
+
+
+
+
+        
 
 
 
