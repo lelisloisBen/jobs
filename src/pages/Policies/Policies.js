@@ -650,37 +650,8 @@ class Policies extends Component {
         <li>Business Office Manager</li>
         <li>Director</li>
         <li>VP</li>
-
-
-
-
-
-
-
-
-
-
-
-
         
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-            
-            </div>
+        </div>
         )
     }
 }

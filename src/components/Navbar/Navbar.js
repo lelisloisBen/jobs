@@ -84,10 +84,10 @@ render() {
             </Nav>
             <Nav className="ml-auto" navbar>
               <button className={styles.buttonSearch}>
-                <i class="fas fa-bell"></i>
+                <i className="fas fa-bell"></i>
               </button>
               <button className={styles.buttonSearch} onClick={this.toggleHidden.bind(this)}>
-                <i class="fas fa-search"></i>
+                <i className="fas fa-search"></i>
               </button>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
