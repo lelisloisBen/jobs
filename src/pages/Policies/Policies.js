@@ -492,6 +492,172 @@ class Policies extends Component {
         <li>Youth Advocate</li>
         <li>Youth Development Specialist</li>
 
+        
+        <h4>### Category: Pharmaceutical/Bio-tech Jobs</h4>
+
+        <li>Analytical Chemist</li>
+        <li>Lab Technician</li>
+        <li>Pharmacist</li>
+        <li>Lab Assistant</li>
+        <li>Pharmaceutical Sales Representative</li>
+        <li>Pharmacy Technician</li>
+
+        <h4>### Category: Real Estate Jobs</h4>
+
+        <li>Assistant Property Manager</li>
+        <li>Leasing Agent</li>
+        <li>Real Estate Appraiser</li>
+        <li>Land Surveyor</li>
+        <li>Leasing Consultant</li>
+        <li>Lease Administrator</li>
+        <li>Property Manager</li>
+
+        <h4>### Category: Restaurant/Food Service Jobs</h4>
+
+        <li>Baker</li>
+        <li>Kitchen Bath Department Supervisor</li>
+        <li>Line Cook</li>
+        <li>Bartender</li>
+        <li>Kitchen Designer</li>
+        <li>Restaurant Bartender</li>
+        <li>Cook</li>
+        <li>Kitchen Helper</li>
+        <li>Restaurant Manager</li>
+        <li>Dishwasher</li>
+        <li>Kitchen Manager</li>
+        <li>Restaurant Worker</li>
+        <li>Executive Chef</li>
+        <li>Kitchen Staff</li>
+        <li>Sous Chef</li>
+        <li>Food Service Worker</li>
+        <li>Kitchen Steward</li>
+        <li>Wait Staff</li>
+        <li>Grill Cook</li>
+        <li>Kitchen Supervisor</li>
+        <li>Kitchen Assistant</li>
+        <li>Kitchen Worker</li>
+
+        <h4>### Category: Retail Jobs</h4>
+
+        <li>Assistant Store Manager</li>
+        <li>Hair Stylist</li>
+        <li>Retail Sales Representative</li>
+        <li>Buyer</li>
+        <li>Head Cashier</li>
+        <li>Retail Store Manager</li>
+        <li>Buyer Planner</li>
+        <li>Jeweler</li>
+        <li>Sales Assistant</li>
+        <li>Cashier</li>
+        <li>Key Holder</li>
+        <li>Store Manager</li>
+        <li>Esthetician</li>
+        <li>Kitchen Bath Sales Associate</li>
+        <li>Visual Merchandiser</li>
+        <li>Footwear Associate</li>
+        <li>Night Manager</li>
+        <li>Youth Department Sales Manager</li>
+        <li>Garden Sales Associate</li>
+        <li>Representative Retail Sales</li>
+        <li>Grooming Salon Manager</li>
+        <li>Retail Sales Associate</li>
+
+        <h4>### Category: Sales Jobs</h4>
+
+        <li>Account Executive</li>
+        <li>Key Account Manager</li>
+        <li>Sales Coordinator</li>
+        <li>Account Manager</li>
+        <li>Merchandiser</li>
+        <li>Sales Executive</li>
+        <li>Account Representative</li>
+        <li>National Account Manager</li>
+        <li>Sales Manager</li>
+        <li>Business Development Manager</li>
+        <li>National Sales Manager</li>
+        <li>Sales Representative</li>
+        <li>Business Development Specialist</li>
+        <li>Outside Sales Representative</li>
+        <li>Sales Specialist</li>
+        <li>Director Of Business Development</li>
+        <li>Regional Sales Manager</li>
+        <li>Telemarketer</li>
+        <li>Director Of Sales</li>
+        <li>Retail Merchandiser</li>
+        <li>Territory Sales Manager</li>
+        <li>District Sales Manager</li>
+        <li>Route Sales Representative</li>
+        <li>Trader</li>
+        <li>Field Representative</li>
+        <li>Sales Associate</li>
+        <li>VP of Sales</li>
+        <li>Inside Sales Representative</li>
+        <li>Sales Consultant</li>
+        <li>Work Sales Representative</li>
+
+        <h4>### Category: Telecommunications Jobs</h4>
+
+        <li>Broadband Technician</li>
+        <li>Telecommunications Specialist</li>
+        <li>Wireless Consultant</li>
+        <li>Communications Specialist</li>
+        <li>Telecommunications Technician</li>
+        <li>ZURB Operator</li>
+
+        <h4>### Category: Transportation/Logistics Jobs</h4>
+
+
+        <li>Bus Driver</li>
+        <li>Logistics Coordinator</li>
+        <li>Van Driver</li>
+        <li>Delivery Driver</li>
+        <li>Logistics Manager</li>
+        <li>Warehouse Assistant</li>
+        <li>Diesel Mechanic</li>
+        <li>Nationwide Truck Driver</li>
+        <li>Warehouse Associate</li>
+        <li>Dispatcher</li>
+        <li>Order Builder</li>
+        <li>Warehouse Clerk</li>
+        <li>Driver</li>
+        <li>Receiving Associate</li>
+        <li>Warehouse Driver</li>
+        <li>Driver Merchandiser</li>
+        <li>Receiving Merchandise Pick Up Associate</li>
+        <li>Warehouse Lead</li>
+        <li>Forklift Operator</li>
+        <li>Route Driver</li>
+        <li>Warehouse Manager</li>
+        <li>Freight Team Associate</li>
+        <li>Shipping Clerk</li>
+        <li>Warehouse Specialist</li>
+        <li>Household Driver</li>
+        <li>Transportation Manager</li>
+        <li>Warehouse Supervisor</li>
+        <li>Logistics Analyst</li>
+        <li>Truck Driver</li>
+        <li>Warehouse Worker</li>
+
+        <h4>### Category: Upper Management/Consulting Jobs</h4>
+
+
+        <li>Business Analyst</li>
+        <li>Business Process Analyst</li>
+        <li>General Manager</li>
+        <li>Business Manager</li>
+        <li>Chief Financial Officer</li>
+        <li>Manager</li>
+        <li>Business Office Manager</li>
+        <li>Director</li>
+        <li>VP</li>
+
+
+
+
+
+
+
+
 
 
 
@@ -513,40 +679,7 @@ class Policies extends Component {
 
 
 
-                <h3>A List </h3>
-                <ul>
-                    <li> Account Executive </li>
-                    <li> Application Developer</li>
-                    <li> Account Manager</li>
-                    <li> Architect</li>
-                    <li> Account Representative</li>
-                    <li> Art Director</li>
-                    <li> Accountant</li>
-                    <li> Assembler</li>
-                    <li> Accounting Assistant</li>
-                    <li> Assistant</li>
-                    <li> Accounting Clerk</li>
-                    <li> Assistant Controller</li>
-                    <li> Accounting Manager</li>
-                    <li> Assistant Editor</li>
-                    <li> Accounts Payable Clerk</li>
-                    <li> Assistant Manager</li>
-                    <li> Accounts Payable Specialist</li>
-                    <li> Assistant Project Manager</li>
-                    <li> Accounts Receivable Clerk</li>
-                    <li> Assistant Property Manager</li>
-                    <li> Administrative Assistant</li>
-                    <li> Assistant Store Manager</li>
-                    <li> Administrative Coordinator</li>
-                    <li> Assistant Teacher</li>
-                    <li> Administrative Specialist</li>
-                    <li> Attorney</li>
-                    <li> Analyst</li>
-                    <li> Autocad Drafter</li>
-                    <li> Analytical Chemist</li>
-                    <li> Automotive Technician</li>
-                </ul>
-            <h3>B List </h3>
+            
             </div>
         )
     }
