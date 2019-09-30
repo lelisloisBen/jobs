@@ -26,9 +26,15 @@ class About extends Component {
   }
 
   testChange(event) {
-    console.log(event.target.value);
-    if (event.target.value === "2") {
+    // console.log(event.target.value);
+    if (event.target.value === "fr") {
+      console.log(this.state.fr);
+    }
+    if (event.target.value === "us") {
       console.log(this.state.us);
+    }
+    if (event.target.value === "sp") {
+      console.log(this.state.sp);
     }
   }
 
@@ -47,9 +53,9 @@ class About extends Component {
 
           <select onChange={this.testChange}>
             <option disabled defaultValue>Country</option>
-            <option>USA</option>
-            <option>France</option>
-            <option>Spain</option>
+            <option value="us">USA</option>
+            <option value="fr">France</option>
+            <option value="sp">Spain</option>
           </select>
 
           <select id="city">
