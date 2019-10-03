@@ -9,9 +9,7 @@ class About extends Component {
     
     this.state = {
       value: '',
-      us: ['Miami', 'Los Angeles', 'Chicago'],
-      fr: ['Paris', 'Marseille', 'Toulouse'],
-      sp: ['Madrid', 'Barcelona', 'Valencia']
+      option: ''
     };
 
 
@@ -26,15 +24,14 @@ class About extends Component {
   }
 
   testChange(event) {
-    // console.log(event.target.value);
     if (event.target.value === "fr") {
-      console.log(this.state.fr);
+      this.setState({ option: "<option>Paris</option><option>Marseille</option><option>Toulouse</option>" });
     }
     if (event.target.value === "us") {
-      console.log(this.state.us);
+      this.setState({ option: "<option>Miami</option><option>Los Angeles</option><option>Chicago</option>" });
     }
     if (event.target.value === "sp") {
-      console.log(this.state.sp);
+      this.setState({ option: "<option>Madrid</option><option>Barcelona</option><option>Valencia</option>" });
     }
   }
 
@@ -52,16 +49,18 @@ class About extends Component {
           <p>{this.state.value}</p>
 
           <select onChange={this.testChange}>
-            <option disabled defaultValue>Country</option>
+            <option defaultValue>Country</option>
             <option value="us">USA</option>
             <option value="fr">France</option>
             <option value="sp">Spain</option>
           </select>
 
           <select id="city">
-            <option>Cities</option>
+            {/* <option>Cities</option> */}
+
+            {this.state.option}
           </select>
-  
+          {this.state.option}
       </div>
   
     );
